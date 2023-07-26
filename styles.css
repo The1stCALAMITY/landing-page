@@ -1,0 +1,44 @@
+header {
+    background-color: #1f2937;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-links {   
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+header h2 { 
+    display: flex;
+    color: white;
+    margin: 24px 0 0 24px;
+    font-size: 36px;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: aliceblue;
+    
+}
+.header-content img {
+    height: 180px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
